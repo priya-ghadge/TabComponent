@@ -42,9 +42,27 @@
 }
 
 .container{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 100%;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+.tabList {
+    display: flex ;
+}
+.Active{
+  background-color: grey;
+  font-weight: bold;
+}
+
+.Tab{
+  background-color: lightgray;
+}
+button{
+  flex: 1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  transition: background 0.8s;
+  padding: 10px;
 }
