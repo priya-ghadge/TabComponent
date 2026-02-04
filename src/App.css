@@ -63,6 +63,6 @@ button{
   border-radius: 5px;
   cursor: pointer;
   font-size: medium;
-  transition: background 0.8s;
+  transition: background-color 0.8s;
   padding: 10px;
 }
